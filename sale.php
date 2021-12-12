@@ -239,32 +239,7 @@ if(!$result){
               </ul>
             </div>
 
-            <div class="col-lg-3 col-sm-3">
-                    <h4>Newsletter</h4>
-                    <p>Get notified about the latest properties in our marketplace.</p>
-                    <form class="form-inline" role="form">
-                            <input type="text" placeholder="Enter Your email address" class="form-control">
-                                <button class="btn btn-success" type="button">Notify Me!</button></form>
-            </div>
-
-            <div class="col-lg-3 col-sm-3">
-                    <h4>Follow us</h4>
-                    <a href="#"><img src="images/facebook.png" alt="facebook"></a>
-                    <a href="#"><img src="images/twitter.png" alt="twitter"></a>
-                    <a href="#"><img src="images/linkedin.png" alt="linkedin"></a>
-                    <a href="#"><img src="images/instagram.png" alt="instagram"></a>
-            </div>
-
-             <div class="col-lg-3 col-sm-3">
-                    <h4>Contact us</h4>
-                    <p><b>SLNP Real Estate</b><br>
-<span class="glyphicon glyphicon-map-marker"></span> 507003 kamanchikal, Khammam <br>
-<span class="glyphicon glyphicon-envelope"></span> ysreddyestates@gmail.com<br>
-<span class="glyphicon glyphicon-earphone"></span> +919515835069</p>
-            </div>
-        </div>
-<p class="copyright">Copyright 2017. All rights reserved.	</p>
-
+            
 
 </div></div>
 

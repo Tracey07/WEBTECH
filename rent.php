@@ -20,7 +20,7 @@ if(!$result){
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
  	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
-  	<link rel="stylesheet" href="assets/style.css"/>
+  	<link rel="stylesheet" href="style_s.css"/>
   	<script src="assets/jquery-1.9.1.min.js"></script>
 	<script src="assets/bootstrap/js/bootstrap.js"></script>
   	<script src="assets/script.js"></script>
@@ -66,13 +66,19 @@ if(!$result){
 
 
             <!-- Nav Starts -->
-            <div class="navbar-collapse  collapse">
-              <ul class="nav navbar-nav navbar-right">
-               <li class="active"><a href="index.php">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
+
+
+            <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="#" class="brand-logo">RealX</a>
+          <ul class="hide-on-med-and-down">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="sale.php">Sale</a></li>
+            <li><a href="logout.php">Logout</a></li>
+           
+          </ul>
+        </div>
+  </nav> 
             <!-- #Nav Ends -->
 
           </div>
@@ -89,7 +95,6 @@ if(!$result){
 
 <!-- Header Starts -->
 <div class="header">
-<a href="index.php"><img src="images/header.png" alt="Realestate"></a>
 
             <div class="menu">
               <ul class="pull-right">
@@ -237,34 +242,9 @@ if(!$result){
               </ul>
             </div>
 
-            <div class="col-lg-3 col-sm-3">
-                    <h4>Newsletter</h4>
-                    <p>Get notified about the latest properties in our marketplace.</p>
-                    <form class="form-inline" role="form">
-                            <input type="text" placeholder="Enter Your email address" class="form-control">
-                                <button class="btn btn-success" type="button">Notify Me!</button></form>
-            </div>
-
-            <div class="col-lg-3 col-sm-3">
-                    <h4>Follow us</h4>
-                    <a href="#"><img src="images/facebook.png" alt="facebook"></a>
-                    <a href="#"><img src="images/twitter.png" alt="twitter"></a>
-                    <a href="#"><img src="images/linkedin.png" alt="linkedin"></a>
-                    <a href="#"><img src="images/instagram.png" alt="instagram"></a>
-            </div>
-
-             <div class="col-lg-3 col-sm-3">
-                    <h4>Contact us</h4>
-                    <p><b>SLNP Real Estate</b><br>
-<span class="glyphicon glyphicon-map-marker"></span> 507003 Kamanchikal, Khammam <br>
-<span class="glyphicon glyphicon-envelope"></span> ysreddyestates@gmail.com<br>
-<span class="glyphicon glyphicon-earphone"></span> +919515835069</p>
-            </div>
-        </div>
-<p class="copyright">Copyright 2017. All rights reserved.	</p>
-
-
-</div></div>
+            
+</div>
+</div>
 
 
 
